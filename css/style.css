@@ -230,7 +230,7 @@ img{
 }
 
 .produtos_icone{
-    padding: 20px;
+    padding: 1px;
     background: #000;
 }
 .call{
@@ -252,11 +252,11 @@ img{
 }
 
 .portfolio .subtitulo{
-    color: #fec63e;
+    color: #fff;
 }
 
 .portfolio .subtitulo:after{
-    background: #fec63e;
+    background: #fff;
 }
 .portfolio_lista div:last-of-type{
   margin-top: 20px;
