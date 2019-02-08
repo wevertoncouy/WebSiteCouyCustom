@@ -1,0 +1,196 @@
+/*Estilo p/ tablet*/
+	@media only screen and (min-width: 768px) and (max-width: 959px){
+		
+		/*qualidade*/
+		.qualidade:after{
+			content: "";
+			width: 634px;
+			height: 83px;
+			display: block;
+			background: url("../img/linhas.png") no-repeat center;
+			position: absolute;
+			top: 209px;
+			right: 66px;
+			z-index: -1;  /*garantir que imagem não fique encima do texto  */
+		}
+
+		.qualidade_lista li{
+			text-align: center;
+			padding: 0 10px;
+		}
+
+
+		/*Footer*/
+
+		.footer_redes ul li{
+			display: inline-block;
+			margin-right: 10px;
+		}
+
+		.footer_redes ul li a{ /*Redes sociais*/
+			border: 3px solid #fec63e;
+			display: block;
+			padding: 6px;
+		}
+
+		.footer_redes ul li a img{
+			width: 26px;
+			height: 26px;
+		}
+
+		/*produtos*/
+		.produto_item h2{
+			top: -150px;
+			margin-bottom: -56px;
+		}
+
+		.produto_icone {
+			padding: 41px 0;
+		}
+
+		.produto_info p{
+			font-size: 14px;
+			line-height: 20px;
+			height: 122px;
+			padding: 20px 30px;
+		}
+
+		.produto_info ul li {
+			float: left;
+			width: 181px;
+			height: 49px;
+		}
+	}
+	
+	/*Estilo p/ Smartphone --------------------------------------------------------*/
+	@media only screen and (max-width: 767px) {
+		/*   hader  */
+	.header{
+		position: relative;
+		padding-bottom: 0;
+	}
+
+	.header img{
+		margin: 0 auto 10px auto;	
+	}
+
+	.header_menu{
+		text-align: center;
+	}
+
+	
+	.header_menu ul li a.menu_ativo{
+    border-color: #fff;
+	}
+
+	.header_menu ul li {
+		margin: 5px;
+	}
+
+	.header_menu ul li a{
+		color: #000;
+		border: 4px solid #000;
+		width: 136px;
+		display: block;
+		float: left;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: .1em; /*Espaçamento entre as letras*/
+		font-size: 14px;
+		line-height: 20px;
+		padding: 10px 0; /*Aumentar a area de contato*/
+	}
+
+
+	.header_menu ul li a:hover {
+		border-color: #fff;
+	}
+
+	/*   INTRODUÇÃO  */
+	.introducao{
+	margin-top: 0px;
+	padding-top: 45px;
+	background: url("../img/bg-mobile.jpg") no-repeat center;
+	background-size: cover;
+	}
+
+	.introducao h1 {
+		font-size: 36px;
+		color: #fff;
+		font-weight: bold;
+		text-transform:  uppercase;
+	}
+
+	/*Introdução interna*/
+	.introducao-interna{
+        margin-top: 0px;
+	}
+	
+	/*call to acton*/
+	.call{
+		padding-top: 10px;
+		
+	}
+
+	.qualidade:after {
+	display: none;
+	}
+
+	/*MissaoSobre*/
+
+	.missao-sobre p {
+		font-size: 14px;
+		line-height: 24px;
+		padding-right: 0px;
+	}
+
+	.missao-sobre ul li {
+		font-size: 14px;
+		line-height: 25px;
+	}
+
+		/*produtos*/
+		.produto_item h2{
+			top: -110px;
+			margin-bottom: -68px;
+		}
+
+		.produto_icone {
+			padding: 41px 0;
+		}
+
+		.produto_info p{
+			font-size: 14px;
+			line-height: 20px;
+			padding: 20px 30px;
+			height: auto;
+		}
+
+		.produto_info ul li {
+			
+			width: 149px;
+			height: 49px;
+			font-size: 14px; 
+			line-height: 20px;
+			padding-top: 14px;
+			
+		}
+
+		
+	.form {
+	padding-right: 0px;
+	}
+
+	.orcamento_dados ul {
+		padding-right: 0px
+	}
+	
+		/*Contato*/
+
+	.contato_form {
+		padding-right: 0px;
+		margin-bottom: 40px;
+	}
+}
+	/* final do estiçp para smartphone*/
+	
