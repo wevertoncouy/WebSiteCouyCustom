@@ -1,0 +1,30 @@
+.introducao-sobre {
+ background: url("../img/bg-sobre.png") no-repeat center;
+}
+
+.missao_sobre {
+   padding-top:  60px; 
+}
+
+.missao_sobre p {
+ font-size: 18px;
+ line-height: 25px;
+ margin-bottom: 1em;
+ padding-right: 60px;
+ color: rgb(24,28,80)
+}
+
+.missao_sobre ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(24,28,80)
+}
+
+.foto-Modelo {
+    padding-top: 40px;
+}
+
+.subtitulo-interno span {
+    font-size: 35px;
+}

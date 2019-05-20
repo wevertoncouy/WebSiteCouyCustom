@@ -52,8 +52,8 @@ img{
     display: block;
     width: 60px;
     height: 3px;
-    background: #fff;
-    margin: 8px;
+    background: rgb(24,28,80);
+    margin: 8px 0;
     margin-bottom: 20px;
 }
 
@@ -64,6 +64,7 @@ img{
     letter-spacing: .1em;
     color: rgb(24,28,80);
     text-transform: uppercase;
+
 }
 
 .subtitulo:after{
@@ -73,18 +74,20 @@ img{
     height: 3px;
     background: rgb(24,28,80);
     margin: 8px auto;
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
 }
+
+
 
 /* Header*/
 
 .header{
-    position: fixed; /*fixa no topo escrola junto com site */
+    position: fixed; /*fixa no topo-scrola junto com site */
     top: 0; /*fica no topo */
     width: 100%; 
     background: rgb(233,189,251);
     padding: 15px;
-    z-index: 10;
+    z-index: 10; /*Cima position ralative*/
 }
 
 .header_menu{
@@ -200,7 +203,7 @@ img{
 .produtos_lista li{
  background: rgb(24,28,80);
  text-align: center;
- color: #fff;
+ color: #fff; 
 }
 
 .produtos_lista li img{
@@ -287,6 +290,7 @@ img{
 
 .qualidade_lista{
     padding-top: 20px;
+    overflow: hidden;
 
 
 }
@@ -373,16 +377,16 @@ img{
     font-family: Georgia, 'Times New Roman', serif;
 }
 
-.footer_redes ul li{
+.footer_redes ul li{ /*Redes sociais*/
     display: inline-block;
     margin-right: 10px;
 }
 
-.footer_redes ul li a{ /*Redes sociais*/
+.footer_redes ul li a{ 
     border: 3px solid rgb(255,93,47);
     display: block;
-    padding: 10px;
-    transition: all .5s ease; /*trasicao com 5 seg Efeito*/
+    padding: 10px ;
+    /* transition: all .5s ease; */ /*trasicao com 5 seg Efeito*/
 }
 
 .footer_redes ul li a:hover{
